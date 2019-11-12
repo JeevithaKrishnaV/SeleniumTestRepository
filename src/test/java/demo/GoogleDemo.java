@@ -33,6 +33,7 @@ capabilities.setCapability("marionette", false);
 		WebDriverWait wait=new WebDriverWait(driver,30);
 		wait.until(ExpectedConditions.titleContains(ExpectedResult));
 		Assert.assertEquals(ExpectedResult, driver.getTitle());
+	        System.out.println("Test Execution is Passed");
 	
 		
 	  
