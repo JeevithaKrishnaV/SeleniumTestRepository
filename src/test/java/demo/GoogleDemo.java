@@ -34,6 +34,7 @@ capabilities.setCapability("marionette", false);
 		wait.until(ExpectedConditions.titleContains(ExpectedResult));
 		Assert.assertEquals(ExpectedResult, driver.getTitle()); */
 	        System.out.println("Test Execution is Passed");
+	         Assert.assertTrue(true);
 	
 		
 	  
