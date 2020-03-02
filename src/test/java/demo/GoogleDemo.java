@@ -12,10 +12,10 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class GoogleDemo {
-	WebDriver driver;
+	//WebDriver driver;
 	String ExpectedResult="selenium - Google Search";
-  @Test
-  public void f() {
+
+  public static void main() {
 /*System.setProperty("webdriver.gecko.driver", "C:\\Software\\geckodriver.exe");
 DesiredCapabilities capabilities = new DesiredCapabilities();
 
@@ -34,7 +34,7 @@ capabilities.setCapability("marionette", false);
 		wait.until(ExpectedConditions.titleContains(ExpectedResult));
 		Assert.assertEquals(ExpectedResult, driver.getTitle()); */
 	        System.out.println("Test Execution is Passed");
-	         Assert.assertTrue(true);
+	         
 	
 		
 	  
